@@ -1,0 +1,47 @@
+#Arithmetic Operators
+
+
+def add(n1,n2):
+    x=n1+n2
+    print(x)
+def sub(n1,n2):
+    x=n1-n2
+    print(x)
+def mul(n1,n2):
+    x=n1*n2
+    print(x)
+def mod(n1,n2):
+    x=n1/n2
+    print(x)
+def rem(n1,n2):
+    x=n1%n2
+    print(x)
+def floor(n1,n2):
+    x=n1//n2
+    print(x)
+n1=int(input())
+n2=int(input())
+add(n1,n2)
+sub(n1,n2)
+mul(n1,n2)
+mod(n1,n2)
+floor(n1,n2)
+rem(n1,n2)
+
+
+#Sqaure Root
+
+def sqr(n):
+    x=n*n
+    print(x)
+n=int(input())
+sqr(n)
+
+
+#Cube Root
+
+def cube(n):
+    x=n**3
+    print(x)
+n=int(input())
+cube(n)
